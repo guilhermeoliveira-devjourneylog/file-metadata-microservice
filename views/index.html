@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>File Metadata</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <h2>File Metadata Microservice</h2>
+
+    <h4 id="output"></h4>
+    <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+      <input id="inputfield" type="file" name="upfile" />
+      <input id="button" type="submit" value="Upload" />
+    </form>
+
+    <p>
+      by
+      <a href="https://glitch.com/edit/#!/file-metadata-microservice-solution">Guilherme Oliveira</a>
+    </p>
+  </body>
+</html>
